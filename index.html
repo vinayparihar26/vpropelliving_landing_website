@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy & Terms of Service - VPropelLiving</title>
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --primary-hover: #4338ca;
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --card-border: #1f2937;
+      --text: #e5e7eb;
+      --text-muted: #9ca3af;
+      --text-heading: #f9fafb;
+      --accent: #06b6d4;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    header {
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .brand-badge {
+      display: inline-block;
+      padding: 0.35rem 0.85rem;
+      background: rgba(79, 70, 229, 0.15);
+      border: 1px solid rgba(79, 70, 229, 0.3);
+      color: #818cf8;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      color: var(--text-heading);
+      margin-bottom: 0.5rem;
+    }
+
+    .meta {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      background: #0f172a;
+      padding: 0.4rem;
+      border-radius: 12px;
+      border: 1px solid var(--card-border);
+    }
+
+    .tab-btn {
+      flex: 1;
+      padding: 0.75rem 1rem;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn.active {
+      background: var(--primary);
+      color: #ffffff;
+      box-shadow: 0 2px 10px rgba(79, 70, 229, 0.4);
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      color: var(--text-heading);
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      color: #c7d2fe;
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+
+    ul {
+      margin-left: 1.5rem;
+      margin-bottom: 1.25rem;
+      color: var(--text);
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    strong {
+      color: var(--text-heading);
+    }
+
+    .highlight-card {
+      background: rgba(79, 70, 229, 0.08);
+      border-left: 4px solid var(--primary);
+      padding: 1rem 1.25rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.5rem 0;
+      color: #e0e7ff;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--card-border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #818cf8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        padding: 1.5rem;
+      }
+      h1 {
+        font-size: 1.75rem;
+      }
+      .tabs {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="brand-badge">VPropelLiving Legal Center</div>
+      <h1>Legal Terms & Policies</h1>
+      <p class="meta"><strong>Effective Date:</strong> October 25, 2026 | <strong>Version:</strong> 1.0.0</p>
+    </header>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab('privacy')">Privacy Policy</button>
+      <button class="tab-btn" onclick="switchTab('terms')">Terms & Conditions</button>
+    </div>
+
+    <!-- ======================================================== -->
+    <!-- PRIVACY POLICY SECTION -->
+    <!-- ======================================================== -->
+    <section id="privacy" class="tab-content active">
+      <h2>Privacy Policy</h2>
+      <p>
+        Welcome to <strong>VPropelLiving</strong> ("App", "we", "us", or "our"), operated by <strong>Taurionix Technologies</strong>. 
+        We are dedicated to safeguarding your privacy and ensuring your personal data is handled securely and transparently. 
+        This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our mobile application and related services.
+      </p>
+
+      <div class="highlight-card">
+        <strong>Google Play Compliance Note:</strong> VPropelLiving collects only the data necessary to provide hostel and PG management, daily meal operations, guest gate passes, maintenance ticket resolution, and digital rental agreements. We never sell your personal data.
+      </div>
+
+      <h2>1. Information We Collect</h2>
+      <h3>A. Personal Information You Provide</h3>
+      <ul>
+        <li><strong>Account Profile:</strong> Full name, phone number, email address, emergency contacts, profile photo, and role (Tenant / PG Owner / Property Staff).</li>
+        <li><strong>Identity & Verification (KYC):</strong> Government ID proofs (e.g., Aadhaar / Voter ID / Passport) required for hostel legal compliance, tenant verification, and digital rental agreements.</li>
+        <li><strong>Property & Tenancy Data:</strong> Room number, bed number, move-in/move-out dates, rent amount, security deposit details, and rental agreements.</li>
+      </ul>
+
+      <h3>B. Operational & Service Data</h3>
+      <ul>
+        <li><strong>Maintenance & Service Desk:</strong> Issue descriptions, service category, and optional photographs/attachments taken to report repair requests (e.g., plumbing, electrical, carpentry).</li>
+        <li><strong>Visitor Management:</strong> Guest names, visit dates, arrival time, and digital gate pass QR codes.</li>
+        <li><strong>Meal Management:</strong> Meal preferences, vegetarian/non-vegetarian preferences, and meal skip opt-outs.</li>
+      </ul>
+
+      <h3>C. Automatically Collected Device Data</h3>
+      <ul>
+        <li><strong>Device Information:</strong> Operating system version, device model, app version, network state, and crash logs to troubleshoot and improve app reliability.</li>
+      </ul>
+
+      <h2>2. Device Permissions Used</h2>
+      <p>To deliver specific features, our app may request the following permissions on your device:</p>
+      <ul>
+        <li><strong>Camera & Photo Gallery:</strong> To allow you to capture/upload profile photos, document KYC proof, and photograph maintenance issues for repair requests.</li>
+        <li><strong>Storage / Media:</strong> To save or view downloaded rental agreements, fee receipts, and invoices locally.</li>
+        <li><strong>Notifications:</strong> To deliver important operational alerts such as rent due dates, gate pass verification, maintenance status updates, and emergency notices.</li>
+      </ul>
+
+      <h2>3. How We Use Your Information</h2>
+      <p>We use your information solely for legitimate operational purposes:</p>
+      <ul>
+        <li>Authenticating and managing user accounts for tenants and property owners.</li>
+        <li>Facilitating rental agreements, roommate matching preferences, and compliance logs.</li>
+        <li>Processing maintenance tickets and notifying technicians.</li>
+        <li>Securing property premises via visitor check-ins and gate pass QR verification.</li>
+        <li>Providing critical hostel announcements and daily meal schedules.</li>
+        <li>Ensuring platform integrity, preventing fraud, and adhering to legal obligations.</li>
+      </ul>
+
+      <h2>4. Data Sharing and Disclosure</h2>
+      <p>We do <strong>not</strong> sell, trade, or rent your personal identifiable information. We only share data with:</p>
+      <ul>
+        <li><strong>Property Owners / Managers:</strong> Information relevant to your tenancy (such as rental agreements, KYC, maintenance tickets, and gate passes) is shared with authorized property administrators.</li>
+        <li><strong>Authorized Service Providers:</strong> Trusted third-party infrastructure (e.g., cloud hosting, push notification gateways) operating under strict confidentiality agreements.</li>
+        <li><strong>Legal & Compliance Authorities:</strong> When strictly required by applicable law, court order, or governmental regulations.</li>
+      </ul>
+
+      <h2>5. Data Security</h2>
+      <p>
+        We employ robust industry-standard technical and organizational security measures, including HTTPS/TLS encryption in transit and secure database storage, to protect your personal data against unauthorized access, loss, or misuse.
+      </p>
+
+      <h2>6. Data Retention and Account Deletion</h2>
+      <p>
+        We retain your personal data as long as your account remains active or as required by law for legal accounting and property compliance. 
+        You have the right to request access to or deletion of your personal data. 
+        To request account and data deletion, please email us at <strong>privacy@taurionix.com</strong> or <strong>vinayparihar26@gmail.com</strong>.
+      </p>
+
+      <h2>7. Children's Privacy</h2>
+      <p>
+        Our services are not intended for individuals under the age of 18 without parental or guardian consent. We do not knowingly collect personal information from minors.
+      </p>
+
+      <h2>8. Changes to this Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. We will notify you of any material changes by updating the "Effective Date" at the top of this policy and through in-app notifications.
+      </p>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- TERMS AND CONDITIONS SECTION -->
+    <!-- ======================================================== -->
+    <section id="terms" class="tab-content">
+      <h2>Terms and Conditions</h2>
+      <p>
+        These Terms and Conditions ("Terms") govern your access to and use of the <strong>VPropelLiving</strong> application and platform provided by <strong>Taurionix Technologies</strong>. 
+        By downloading, installing, or using this app, you agree to be bound by these Terms.
+      </p>
+
+      <h2>1. User Eligibility & Account Responsibilities</h2>
+      <ul>
+        <li>You must be at least 18 years of age or possess legal parental/guardian authorization to register.</li>
+        <li>You are responsible for maintaining the confidentiality of your login credentials and for all activities that occur under your account.</li>
+        <li>You agree to provide accurate, current, and complete information during registration and verification.</li>
+      </ul>
+
+      <h2>2. Use of PG Management & Living Services</h2>
+      <ul>
+        <li><strong>Tenant Conduct:</strong> Tenants must adhere to hostel policies, code of conduct, and safety guidelines set forth by property management.</li>
+        <li><strong>Maintenance Requests:</strong> Requests must be genuine and accurately documented. False or abusive reporting may result in service restrictions.</li>
+        <li><strong>Visitor Gate Passes:</strong> Guests are admitted under the responsibility of the host tenant and must comply with security check-in protocols.</li>
+        <li><strong>Meal Preferences:</strong> Meal opt-outs and skip requests must be submitted within property cut-off timelines.</li>
+      </ul>
+
+      <h2>3. Rental Agreements and Payments</h2>
+      <ul>
+        <li>Digital rental agreements generated or acknowledged through the app are legally binding contracts between the tenant and the respective property owner.</li>
+        <li>VPropelLiving facilitates record-keeping, maintenance, and communication; payment schedules and tenancy agreements are agreed directly between tenant and owner.</li>
+      </ul>
+
+      <h2>4. Prohibited Activities</h2>
+      <p>Users shall not:</p>
+      <ul>
+        <li>Use the platform for any unlawful, fraudulent, or harassing purpose.</li>
+        <li>Upload malicious code, viruses, or attempt unauthorized access to platform servers.</li>
+        <li>Impersonate any person or provide fraudulent government identification documents.</li>
+      </ul>
+
+      <h2>5. Intellectual Property</h2>
+      <p>
+        All rights, title, and interest in and to VPropelLiving, including its design, branding, features, software, and content, remain the exclusive property of Taurionix Technologies.
+      </p>
+
+      <h2>6. Disclaimer of Warranties & Limitation of Liability</h2>
+      <p>
+        The app is provided on an "as is" and "as available" basis without warranties of any kind. 
+        Taurionix Technologies shall not be held liable for disputes, property damages, or tenancy disagreements arising directly between tenants and property owners.
+      </p>
+
+      <h2>7. Termination</h2>
+      <p>
+        We reserve the right to suspend or terminate accounts that violate these Terms, engage in fraudulent activities, or jeopardize property safety.
+      </p>
+
+      <h2>8. Governing Law & Jurisdiction</h2>
+      <p>
+        These Terms shall be governed by and construed in accordance with the laws of India. Any disputes arising hereunder shall be subject to the exclusive jurisdiction of the courts in Bangalore, Karnataka.
+      </p>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- CONTACT SECTION -->
+    <!-- ======================================================== -->
+    <footer>
+      <h3>Contact Information</h3>
+      <p>If you have any questions about this Privacy Policy or our Terms and Conditions, please contact us:</p>
+      <p>
+        <strong>Taurionix Technologies</strong><br>
+        Bangalore, Karnataka, India<br>
+        Email: <a href="mailto:vinayparihar26@gmail.com">vinayparihar26@gmail.com</a>
+      </p>
+      <p style="margin-top: 1rem;">© 2026 Taurionix Technologies. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script>
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+
+      if (tabId === 'privacy') {
+        document.querySelectorAll('.tab-btn')[0].classList.add('active');
+        document.getElementById('privacy').classList.add('active');
+        window.location.hash = 'privacy';
+      } else {
+        document.querySelectorAll('.tab-btn')[1].classList.add('active');
+        document.getElementById('terms').classList.add('active');
+        window.location.hash = 'terms';
+      }
+    }
+
+    // Auto select based on URL hash (e.g. #terms or #privacy)
+    if (window.location.hash === '#terms') {
+      switchTab('terms');
+    }
+  </script>
+</body>
+</html>
